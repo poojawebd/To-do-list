@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p class="heading">Todo List</p>
+
+    <input class="js-input input " placeholder="Todo name" onkeydown= "
+    handleCostKeydown(event);">  
+
+    <input class=" js-dueDate date" type="date" id="calendar">
+  <!-- <button class=" btn-style" onclick="showDate()">Submit</button> -->
+
+
+    <button class="add" onclick="addTodo(); 
+    ">Add</button>
+
+    <div class="js-todo-list list "></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
